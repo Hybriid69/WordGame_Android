@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">WordWiz</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="splashIMG">Splash Image</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_menu_options">MenuOptions</string>
+
+    <!--Menu-->
+    <string name="start">Start synonym game...</string>
+    <string name="pics">Start match the picture...</string>
+    <string name="help">Click for help</string>
+    <string name="main">Main Menu</string>
+    <string name="ban">Banner</string>
+    <string name="title_activity_matchthesynonyms">matchthesynonyms</string>
+
+    <!--Game-->
+    <string name="header">Find the matching synonym</string>
+    <string name="next">Next word</string>
+    <string name="check">Check match</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_animals">Animals</string>
+    <string name="title_activity_category">Category</string>
+    <string name="title_activity_colours">Colours</string>
+
+
+    <!--Added-->
+    <string name="choose">Choose a category:</string>
+    <string name="animals">Animals</string>
+    <string name="countries">Countries</string>
+    <string name="colours">Colours</string>
+
+    <string name="oncomplete">When you have guessed the word, click the next button to check if you were correct. If yes you will proceed to the next picture. If not you will be required to guess again.</string>
+    <string name="Help">Help</string>
+    <string name="Continue">Continue</string>
+
+    <string name="title_activity_countries">Countries</string>
+
+    <string name="title_activity_menu">Menu</string>
+    <string name="Next">Next</string>
+    <string name="title_activity_index">Index</string>
+    <string name="Choose">Please choose on of the following options:</string>
+    <string name="Back">Back</string>
+    <string name="Reason">This educational game was created to teach general words and enhance general knowledge. Accompanied by interesting pictures and a chance to think.</string>
+    <string name="Try">TRY IT!</string>
+    <string name="Exit">Main Menu</string>
+    <string name="title_activity_categories">Categories</string>
+    <string name="synonym">Please match the synonym with the word above.</string>
+    <string name="Wor">Word to be matched with the synonym.</string>
+
+</resources>

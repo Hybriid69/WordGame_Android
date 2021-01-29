@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/optionsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E2E6F1"
+    tools:context="com.example.wordgame.MenuOptions">
+
+    <Button
+        android:id="@+id/buttonAnimalsOption"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="345dp"
+        android:layout_height="70dp"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/animal"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="50sp"
+        android:requiresFadingEdge="horizontal|vertical"
+        android:text="Animals "
+        android:textAllCaps="false"
+        android:textColor="#081249"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_max="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.254" />
+
+
+    <Button
+        android:id="@+id/buttonColourOption"
+        android:layout_width="345dp"
+        android:layout_height="70dp"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/colour"
+        android:text="Colours "
+        android:textAllCaps="false"
+        android:textColor="#081249"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.559" />
+
+    <Button
+        android:id="@+id/buttonSynonymOption"
+        android:layout_width="345dp"
+        android:layout_height="70dp"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/words_image"
+        android:text="Synonyms"
+        android:textAllCaps="false"
+        android:textColor="#081249"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.711" />
+
+    <Button
+        android:id="@+id/buttonCountryOption"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="345dp"
+        android:layout_height="70dp"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/flags_image"
+        android:text="Countries "
+        android:textAllCaps="false"
+        android:textColor="#081249"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_max="70dp"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.407" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="Log out"
+        android:textAllCaps="false"
+        android:textColor="#081249"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+
+    <Button
+        android:id="@+id/buttonHelp"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="Click For Help "
+        android:textAllCaps="false"
+        android:textColor="#081249"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.856" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="475dp"
+        android:layout_height="75dp"
+        android:background="#ABE2E6F1"
+        android:foregroundGravity="center"
+        android:src="@drawable/logo2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003" />
+
+
+    <TextView
+        android:id="@+id/textViewhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#81E2E6F1"
+        android:fontFamily="cursive"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Main Menu"
+        android:textColor="#081249"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

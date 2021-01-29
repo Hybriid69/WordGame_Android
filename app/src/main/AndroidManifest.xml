@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wordgame">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".AdminCountry" >
+        </activity>
+        <activity android:name=".SeedClass" >
+        </activity>
+        <activity android:name=".AdminColour" />
+        <activity android:name=".AdminAnimal" />
+        <activity android:name=".AdminSynonym" />
+        <activity android:name=".AdminMenu" />
+        <activity
+            android:name=".matchthesynonyms"
+            android:label="@string/title_activity_matchthesynonyms" />
+        <activity android:name=".SplashScreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuOptions"
+            android:label="@string/title_activity_menu_options" />
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help" />
+        <activity
+            android:name=".Animals"
+            android:label="@string/title_activity_animals" />
+        <activity
+            android:name=".Category"
+            android:label="@string/title_activity_category" />
+        <activity
+            android:name=".Colours"
+            android:label="@string/title_activity_colours" /> <!-- <activity -->
+        <!-- android:name=".Categories" -->
+        <!-- android:label="@string/title_activity_categories" > -->
+        <!-- </activity> -->
+        <activity
+            android:name=".Countries"
+            android:label="@string/title_activity_countries" />
+    </application>
+
+</manifest>
